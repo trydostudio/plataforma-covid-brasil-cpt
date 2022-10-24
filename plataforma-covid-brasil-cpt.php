@@ -2,6 +2,7 @@
 
 /**
  * Plugin Name:       Plataforma Covid Brasil CPT
+ * Plugin URI:        https://github.com/trydostudio/plataforma-covid-brasil-cpt
  * Description:       Wordpress Custom Post Types to Plataforma Covid Brasil - OPAS/OMS.
  * Requires at least: 5.9
  * Requires PHP:      7.0

@@ -35,7 +35,7 @@ function register_custom_post()
 
   // Colaboradores
   create_custom_taxonomy('colabs_post_type_categories', 'Categorias', 'Categorias', 'colabs_post_type');
-  create_custom_post('colabs', 'Colaboradores', 'Colaboradores Textos', 'dashicons-universal-access-alt', array('title', 'editor'), array());
+  create_custom_post('colabs', 'Colaboradores', 'Colaboradores Textos', 'dashicons-universal-access-alt', array('title', 'editor', 'thumbnail', 'excerpt'), array());
 }
 
 add_action('init', 'register_custom_post');
